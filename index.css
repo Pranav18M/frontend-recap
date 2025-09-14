@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Full page styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card container */
+.container {
+  background: whitesmoke;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 300px;
+}
+
+/* Profile image */
+.user img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #ddd;
+  background: #ccc;
+  object-fit: cover;
+}
+
+/* Name + Role */
+.name {
+  margin-top: 15px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.pra {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Social Icons */
+.icons {
+  margin-top: 20px;
+}
+
+.icons a {
+  text-decoration: none;
+  margin: 0 10px;
+  display: inline-block;
+  transition: transform 0.2s, color 0.3s;
+}
+
+.icons a:hover {
+  transform: scale(1.2);
+  color: #0077b5; /* LinkedIn blue (will apply to all on hover, you can customize) */
+}
+
+.icons i {
+  font-size: 35px;
+  color: black;
+}
